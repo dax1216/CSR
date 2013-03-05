@@ -1,4 +1,10 @@
 Csr::Application.routes.draw do
+  resources :teams
+
+
+  resources :colleges
+
+
   resources :users
 
 
